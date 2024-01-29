@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+}
+#leftContainer{
+    height:100vh;
+    width:30%;
+    background-image:url(https://images.unsplash.com/photo-1590487988256-9ed24133863e?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-bottom: 70px;
+   
+    color: white;
+    font-weight: 600;
+    font-size: 48px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.dataInput{
+    height:35px;
+    width:70%;
+    /* border: none; */
+    color: white;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: transparent;
+}
+#flexing{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    width:150px;
+    height: 30px;
+    border: 0.5px solid rgb(251, 243, 243);
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+/* Right Container */
+
+#rightContainer{
+    width:70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-image:url(sven-mieke-MsCgmHuirDo-unsplash.jpg);
+    background-color: rgba(0,0,0,0.7);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* #search{
+    font-size: 24px;
+    padding-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    width:50%;
+    height:40px;
+    border: 0.5px solid grey;
+    background-color: #2b2e3a;
+} */
+
+
+#dummy{
+    height: 50px;
+}
+#mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    font-family: sans-serif;
+    border-radius: 15px;
+    height: 35px;
+    width:80%;
+    background-color: aliceblue;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: transform 0.3s ease;
+}
+.cards:hover{
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);
+}
+.deleteBtn,.editBtn{
+    cursor: pointer;
+}
+button{
+    width:70px;
+    height:30px;
+    border-radius: 15px;
+    background-color: transparent;
+}
